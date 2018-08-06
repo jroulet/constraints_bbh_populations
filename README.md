@@ -36,31 +36,31 @@ pycbc, jupyter
 ## File structure
 
     .
-    ├── 1-estimate_parameters/				# Single-event analysis
-    │   ├── all_clear.sh					# Clear all the runs (run 1st)
-    │   ├── all_compute.sh					# Run compute_likelihood.py on all the events (run 3rd)
-    │   ├── all_config.sh					# Run parameter_config.py on all the events (run 2nd)
+    ├── 1-estimate_parameters/              # Single-event analysis
+    │   ├── all_clear.sh                    # Clear all the runs (run 1st)
+    │   ├── all_compute.sh                  # Run compute_likelihood.py on all the events (run 3rd)
+    │   ├── all_config.sh                   # Run parameter_config.py on all the events (run 2nd)
     │   ├── compute_likelihood.log2
-    │   ├── compute_likelihood.py			# Compute parameter likelihood over parameter_grid
-    │   ├── estimate_parameters.ipynb		# Analyze the single-event likelihoods
-    │   ├── logI.dat						# Tabulated function log(I(|z|))
-    │   ├── logI.nb							# Generate logI.dat
-    │   ├── parameter_config.py				# Generate parameter_grid and grid_metadata
-    │   ├── figures/						# Multi-event figures
+    │   ├── compute_likelihood.py           # Compute parameter likelihood over parameter_grid
+    │   ├── estimate_parameters.ipynb       # Analyze the single-event likelihoods
+    │   ├── logI.dat                        # Tabulated function log(I(|z|))
+    │   ├── logI.nb                         # Generate logI.dat
+    │   ├── parameter_config.py             # Generate parameter_grid and grid_metadata
+    │   ├── figures/                        # Multi-event figures
     │   ├── <event1>/
-    │   │   ├── figures/					# Single-event figures
-    │   │   ├── freqs.dat					# Template frequencies (Hz)
-    │   │   ├── grid_metadata				# Dimensions of the parameter grid
-    │   │   ├── <event1>.dat				# Strain data
-    │   │   ├── <event1>_LIGO_parameters	# Parameter values reported by the LVC
-    │   │   └── parameter_grid				# Parameter values on which to estimate the likelihood
+    │   │   ├── figures/                    # Single-event figures
+    │   │   ├── freqs.dat                   # Template frequencies (Hz)
+    │   │   ├── grid_metadata               # Dimensions of the parameter grid
+    │   │   ├── <event1>.dat                # Strain data
+    │   │   ├── <event1>_LIGO_parameters    # Parameter values reported by the LVC
+    │   │   └── parameter_grid              # Parameter values on which to estimate the likelihood
     │   └── .../
     │
     ├── 2-estimate_horizon/
-    │   ├── ASD_average.dat					# A reference amplitude spectral density
+    │   ├── ASD_average.dat                 # A reference amplitude spectral density
     │   ├── ASD_zdhp.dat
-    │   ├── compute_PSD_average.py			# Generate ASD_average.dat
-    │   ├── compute_SNR_1Mpc.py				# Compute the SNR over parameter_grid
+    │   ├── compute_PSD_average.py          # Generate ASD_average.dat
+    │   ├── compute_SNR_1Mpc.py             # Compute the SNR over parameter_grid
     │   └── all_par_space/
     │       ├── figures/
     │       ├── freqs.dat
@@ -69,12 +69,12 @@ pycbc, jupyter
     │       └── parameter_grid
     │
     ├── 3-analyze_population
-    │   ├── analyze_population.ipynb		# Do population inference
-    │   ├── P_greater_than_w.dat			# Tabulated cumulative of angular factors, P(w > w*)
-    │   ├── P_greater_than_w.ipynb			# Generate P_greater_than_w.dat
+    │   ├── analyze_population.ipynb        # Do population inference
+    │   ├── P_greater_than_w.dat            # Tabulated cumulative distribution of angular factors, P(w > w*)
+    │   ├── P_greater_than_w.ipynb          # Generate P_greater_than_w.dat
     │   └── figures/
     │
-    └── README.md							# This file
+    └── README.md                           # This file
 
 
 
