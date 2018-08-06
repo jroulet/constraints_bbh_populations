@@ -1,0 +1,550 @@
+
+Time to compute logL: 114.2 minutes
+LVT151012 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  93.613
+ mean: 17.236
+LVT151012 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  85.590
+ mean: 14.080
+LVT151012 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  76.817
+ mean: 16.237
+LVT151012 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  66.332
+ mean: 13.308
+Total time: 114.5 minutes
+
+Time to compute logL: 120.7 minutes
+GW150914 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  82.597
+ mean: 8.094
+GW150914 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  67.957
+ mean: 6.455
+GW150914 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  54.329
+ mean: 6.321
+GW150914 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  42.769
+ mean: 4.965
+Total time: 121.0 minutes
+
+Time to compute logL: 106.5 minutes
+GW170104 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  73.610
+ mean: 11.787
+GW170104 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  64.808
+ mean: 9.823
+GW170104 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  78.986
+ mean: 12.603
+GW170104 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  71.131
+ mean: 10.781
+Total time: 106.7 minutes
+
+Time to compute logL: 328.3 minutes
+GW170608 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  61.392
+ mean: 6.948
+GW170608 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  57.093
+ mean: 5.935
+GW170608 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  62.986
+ mean: 6.723
+GW170608 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  55.333
+ mean: 5.611
+Total time: 329.0 minutes
+
+
+
+
+Time to compute logL: 0.1 minutes
+LVT151012 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  126.693
+ mean: 33.085
+LVT151012 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  113.180
+ mean: 27.996
+LVT151012 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  125.538
+ mean: 34.717
+LVT151012 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  102.035
+ mean: 29.248
+Total time: 0.9 minutes
+
+Time to compute logL: 0.2 minutes
+GW150914 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  27.375
+ mean: 6.363
+GW150914 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  28.070
+ mean: 6.349
+GW150914 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  28.412
+ mean: 6.633
+GW150914 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  29.043
+ mean: 6.583
+Total time: 1.1 minutes
+
+Time to compute logL: 0.1 minutes
+GW170104 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  102.576
+ mean: 18.494
+GW170104 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  81.979
+ mean: 16.958
+GW170104 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  94.542
+ mean: 17.879
+GW170104 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  76.436
+ mean: 16.550
+Total time: 1.1 minutes
+
+Time to compute logL: 0.2 minutes
+GW170608 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  88.417
+ mean: 26.253
+GW170608 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  72.002
+ mean: 28.511
+GW170608 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  87.590
+ mean: 26.259
+GW170608 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  69.932
+ mean: 28.448
+Total time: 1.2 minutes
+
+
+
+Time to compute logL: 0.1 minutes
+LVT151012 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  109.200
+ mean: 47.585
+LVT151012 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  86.604
+ mean: 37.969
+LVT151012 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  105.475
+ mean: 45.291
+LVT151012 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  82.759
+ mean: 36.958
+Total time: 0.4 minutes
+
+Time to compute logL: 0.1 minutes
+GW150914 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  140.808
+ mean: 34.768
+GW150914 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  113.183
+ mean: 27.427
+GW150914 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  138.372
+ mean: 33.451
+GW150914 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  110.616
+ mean: 26.441
+Total time: 0.5 minutes
+
+Time to compute logL: 0.1 minutes
+GW170104 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  126.073
+ mean: 43.937
+GW170104 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  105.743
+ mean: 36.362
+GW170104 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  117.523
+ mean: 46.659
+GW170104 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  96.856
+ mean: 38.049
+Total time: 0.4 minutes
+
+
+Time to compute logL: 0.1 minutes
+LVT151012 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  102.094
+ mean: 16.427
+LVT151012 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  87.036
+ mean: 14.735
+LVT151012 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  95.263
+ mean: 20.002
+LVT151012 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  81.733
+ mean: 17.474
+Total time: 0.5 minutes
+
+Time to compute logL: 0.1 minutes
+GW150914 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  26.103
+ mean: 6.287
+GW150914 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  26.220
+ mean: 6.288
+GW150914 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  27.355
+ mean: 6.566
+GW150914 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  27.316
+ mean: 6.537
+Total time: 0.6 minutes
+
+Time to compute logL: 0.1 minutes
+GW170104 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  42.221
+ mean: 10.248
+GW170104 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  52.608
+ mean: 11.790
+GW170104 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  40.742
+ mean: 10.391
+GW170104 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  50.666
+ mean: 11.870
+Total time: 0.5 minutes
+
+Time to compute logL: 0.2 minutes
+GW170608 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  68.820
+ mean: 23.808
+GW170608 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  84.170
+ mean: 28.174
+GW170608 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  68.785
+ mean: 23.697
+GW170608 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  86.193
+ mean: 28.078
+Total time: 1.1 minutes
+
+Time to compute logL: 0.2 minutes
+GW170814 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  11.081
+ mean: 3.413
+GW170814 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  11.535
+ mean: 3.751
+GW170814 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  11.076
+ mean: 3.586
+GW170814 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  11.712
+ mean: 3.894
+Total time: 1.3 minutes
+
+Time to compute logL: 0.1 minutes
+GW151226 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  85.793
+ mean: 19.586
+GW151226 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  69.106
+ mean: 18.550
+GW151226 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  83.454
+ mean: 18.607
+GW151226 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  69.051
+ mean: 17.833
+Total time: 0.5 minutes
+
+
+
+Time to compute logL: 90.3 minutes
+LVT151012 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  98.303
+ mean: 8.504
+LVT151012 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  86.502
+ mean: 7.618
+LVT151012 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  104.846
+ mean: 10.647
+LVT151012 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  94.882
+ mean: 9.530
+Total time: 90.5 minutes
+
+Time to compute logL: 208.2 minutes
+GW150914 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  0.937
+ mean: 0.048
+GW150914 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  0.919
+ mean: 0.047
+GW150914 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  0.909
+ mean: 0.046
+GW150914 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  0.895
+ mean: 0.046
+Total time: 208.7 minutes
+
+Time to compute logL: 160.6 minutes
+GW170104 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  78.401
+ mean: 10.357
+GW170104 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  75.308
+ mean: 9.935
+GW170104 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  92.754
+ mean: 10.834
+GW170104 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  86.857
+ mean: 10.686
+Total time: 160.9 minutes
+
+Time to compute logL: 294.4 minutes
+GW170608 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  70.921
+ mean: 11.338
+GW170608 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  78.434
+ mean: 12.625
+GW170608 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  97.785
+ mean: 11.699
+GW170608 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  110.485
+ mean: 13.206
+Total time: 295.1 minutes
+
+Time to compute logL: 257.5 minutes
+GW170814 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  54.768
+ mean: 2.422
+GW170814 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  49.338
+ mean: 2.182
+GW170814 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  56.107
+ mean: 2.480
+GW170814 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  50.504
+ mean: 2.232
+Total time: 258.1 minutes
+
+
+64*64*128 points:
+Time to compute logL: 582.5 minutes
+GW170608 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  106.810
+ mean: 7.082
+GW170608 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  99.918
+ mean: 7.352
+GW170608 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  96.681
+ mean: 7.879
+GW170608 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  102.562
+ mean: 8.597
+Total time: 583.1 minutes
+
+
+
+
+Time to compute logL: 87.4 minutes
+LVT151012 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  79.667
+ mean: 7.696
+LVT151012 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  72.175
+ mean: 6.949
+LVT151012 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  79.520
+ mean: 9.302
+LVT151012 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  73.366
+ mean: 8.360
+Total time: 87.6 minutes
+
+Time to compute logL: 204.2 minutes
+GW150914 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  0.135
+ mean: 0.009
+GW150914 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  0.132
+ mean: 0.009
+GW150914 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  0.142
+ mean: 0.009
+GW150914 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  0.139
+ mean: 0.009
+Total time: 204.7 minutes
+
+Time to compute logL: 156.0 minutes
+GW170104 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  91.485
+ mean: 10.531
+GW170104 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  91.916
+ mean: 10.444
+GW170104 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  88.165
+ mean: 10.593
+GW170104 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  96.521
+ mean: 10.586
+Total time: 156.4 minutes
+
+Time to compute logL: 1066.0 minutes
+GW170608 coherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  nan
+ mean: nan
+GW170608 incoherent IMRPhenomD
+Relative error in likelihood interpolation:
+ max:  68.689
+ mean: 10.475
+GW170608 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  nan
+ mean: nan
+GW170608 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  77.432
+ mean: 11.417
+Total time: 1066.9 minutes
+
+Time to compute logL: 133.2 minutes
+GW170814 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  0.048
+ mean: 0.003
+GW170814 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  0.059
+ mean: 0.003
+Total time: 133.4 minutes
+
+Time to compute logL: 114.0 minutes
+GW151226 coherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  78.886
+ mean: 8.025
+GW151226 incoherent SEOBNRv4_ROM
+Relative error in likelihood interpolation:
+ max:  73.274
+ mean: 8.108
+Total time: 114.3 minutes
+
+

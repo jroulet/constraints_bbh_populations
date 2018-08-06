@@ -1,0 +1,10 @@
+	M_chirp	q	m1	m2	chi_eff
+SEOBNRv4_ROM	9.71	0.54	15.3	8.3	0.21
+SEOBNRv4_ROM_errm	0.07	0.33	3.8	2.9	0.11
+SEOBNRv4_ROM_errp	0.08	0.4	10.8	2.5	0.24
+IMRPhenomD	9.72	0.51	15.8	8.1	0.22
+IMRPhenomD_errm	0.06	0.25	4	2.1	0.08
+IMRPhenomD_errp	0.06	0.39	7.2	2.5	0.15
+Overall	9.72	0.52	14.2	7.5	0.21
+Overall_errm	0.06	0.29	3.7	2.3	0.1
+Overall_errp	0.07	0.4	8.3	2.3	0.2
