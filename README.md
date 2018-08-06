@@ -70,7 +70,7 @@ pycbc, jupyter
     │
     ├── 3-analyze_population
     │   ├── analyze_population.ipynb        # Do population inference
-    │   ├── P_greater_than_w.dat            # Tabulated cumulative distribution of angular factors, P(w > w*)
+    │   ├── P_greater_than_w.dat            # Tabulated cumulative of angular factors, P(w > w*)
     │   ├── P_greater_than_w.ipynb          # Generate P_greater_than_w.dat
     │   └── figures/
     │
