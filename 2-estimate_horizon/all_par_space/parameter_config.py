@@ -9,7 +9,7 @@ from collections import OrderedDict
 
 grid_nums = OrderedDict([('M_chirp', 128),
                          ('q'      , 16),
-                         ('chi_eff', 64)
+                         ('chi_eff', 33)  # Odd so as to have chi_eff == 0
                         ])  # Number of points along each dimension
 bounds = {'M_chirp': [4.3, 100],
           'q':       [.03, 1],

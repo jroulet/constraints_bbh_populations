@@ -27,7 +27,11 @@ T = 8.
 fs = 4096.
 dt = 1 / fs
 df = 1 / T
-f_lower = 10
+f_lower = {(event, det): 10 for event in events for det in LIGO}
+f_lower['GW170608', 'L1'] = 20
+f_lower['GW170608', 'H1'] = 30
+f_higher = 1650
+
 N = int(T * fs)
 times = np.linspace(0, T, num=N, endpoint=False)  # [s]
 
@@ -42,7 +46,8 @@ for event in events:
         psd = welch(TimeSeries(s, delta_t=dt), avg_method='median-mean')
         psd_freqs = psd.sample_frequencies
         PSD[event, det] = np.interp(freqs, psd_freqs, psd)  # [1/Hz]
-
+        PSD[event, det][freqs < f_lower[event, det]] = np.inf
+        PSD[event, det][freqs > f_higher] = np.inf
     PSD[event, 'total'] = (PSD[event, 'H1']**-2 + PSD[event, 'L1']**-2)**-.5
 PSD['average'] = 1/np.mean([1/PSD[event, 'total'] for event in events], axis=0)
 
@@ -51,18 +56,18 @@ with open('ASD_average.dat', 'w') as outfile:
     outfile.write('\n'.join('{}\t{}'.format(f, a) 
                             for f, a in zip(freqs, ASD['average'])))
 
-fmin = 20
-fmax = 1500
-imin = next(i for i, f in enumerate(freqs) if f > fmin)
-imax = next(i for i, f in enumerate(freqs) if f > fmax)
-for x in ASD:
-    ASD[x] = ASD[x][imin:imax]
-freqs = freqs[imin:imax]
+# fmin = 20
+# fmax = 1500
+# imin = next(i for i, f in enumerate(freqs) if f > fmin)
+# imax = next(i for i, f in enumerate(freqs) if f > fmax)
+# for x in ASD:
+#     ASD[x] = ASD[x][imin:imax]
+# freqs = freqs[imin:imax]
 
 plt.loglog(freqs, ASD['average'], 'k', label='Average', lw=2, zorder=10)
 for event in events:
     plt.plot(freqs, ASD[event, 'total'], label=event)
-plt.xlim(fmin)
+# plt.xlim(fmin)
 plt.xlabel('Frequency (Hz)')
 plt.ylabel('ASD (Hz$^{-1/2}$)')
 plt.legend()
