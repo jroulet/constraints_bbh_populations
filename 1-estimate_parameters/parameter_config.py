@@ -21,7 +21,7 @@ grid_nums = OrderedDict([('M_chirp', 64 if event != 'GW170608' else 32),
                         ])  # Number of points along each dimension
 
 grid_params = list(grid_nums.keys())
-zoom_out = 2.5  # Grid extent relative to the LIGO errorbars
+zoom_out = 2.6  # Grid extent relative to the LIGO errorbars
 
 ligo_params = pd.read_csv('{0}/{0}_LIGO_parameters'.format(event), 
                           sep=r'\s+', comment='#')
@@ -47,6 +47,19 @@ if event == 'GW170608':
 
 if event == 'GW170814':
     grid_1d['M_chirp'] = np.linspace(23.5, 29.5, grid_nums['M_chirp'])
+
+if event == 'GW170729':
+  grid_1d['M_chirp'] = np.linspace(35, 68, grid_nums['M_chirp'])
+
+if event == 'GW170809':
+  grid_1d['M_chirp'] = np.linspace(26, 34, grid_nums['M_chirp'])
+
+if event == 'GW170818':
+  grid_1d['M_chirp'] = np.linspace(26, 38, grid_nums['M_chirp'])
+
+if event == 'GW170823':
+  grid_1d['M_chirp'] = np.linspace(28, 47, grid_nums['M_chirp'])
+
 
 
 # Write grid:

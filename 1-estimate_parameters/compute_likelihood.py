@@ -56,7 +56,7 @@ with open('{}/freqs.dat'.format(event), 'w') as freq_file:
     freq_file.write('\n'.join(['{:.6g}'.format(x) for x in freqs]))
 
 # Load data, compute PSD:
-S, WD_conj, PSD = {}, {}, {}
+S, BD_conj, PSD = {}, {}, {}
 for i, det in enumerate(detectors):
     s = np.loadtxt('{0}/{0}.dat'.format(event), 
                    usecols=i, skiprows=1)  # GW data
@@ -68,7 +68,7 @@ for i, det in enumerate(detectors):
     # Crop T seconds of data near the event:
     s = s[len(s)//2 - 3*N//4 : len(s)//2 + N//4]
     S[det] = fft.rfft(s * tukey(len(s), alpha=1./8)) / fs  # [1/Hz] 
-    WD_conj[det] = S[det].conjugate() / PSD[det]  # Withened data
+    BD_conj[det] = S[det].conjugate() / PSD[det]  # Blued data
 
 with open(event + '/grid_metadata') as f:
     grid_params = f.readline().strip().split()
@@ -84,7 +84,7 @@ assert grid_params == param_key, \
 zp, logIp = np.loadtxt('logI.dat', skiprows=1, unpack=True)
 logI = interp1d(zp, logIp, kind='cubic', assume_sorted=True)
 
-upsample_factor = 8 if event != 'GW170608' else 16
+upsample_factor = 4 if event != 'GW170608' else 16
 
 #  Prescriptions for assigning (chi1, chi2) given chi_eff:
 def equal_chi1_chi2_chieff(q, chi_eff):
@@ -130,14 +130,14 @@ def compute_likelihood(arg):
         spin2z=chi2,
         approximant=approximant, f_lower=f_lower, f_final=fs/2, delta_f=df)[0])
 
-    abs_z_1det_thresh = 6  # Ignore parameters that yield SNR below this
+    abs_z_1det_thresh = 3.6  # Ignore parameters that yield SNR below this
     
     dt_ups = dt / upsample_factor
     t_ups = np.arange(times[0], times[-1], dt_ups)
     logL, z, abs_z, abs_z_above_thresh, hh = {}, {}, {}, {}, {}
     for det in detectors:
         hh[det] = 4*(abs(H)**2 / PSD[det]).sum()*df  # < h | h >
-        z_ = 4/sqrt(hh[det]) * fs*fft.ifft(WD_conj[det]*H, N)
+        z_ = 4/sqrt(hh[det]) * fs*fft.ifft(BD_conj[det]*H, N)
         abs_z_ = np.abs(z_)
         if det in LIGO and abs_z_.max() < abs_z_1det_thresh:
             return {'logL_coherent': -99, 'logL_incoherent': -99}  # Abort
@@ -228,10 +228,10 @@ cov = np.diag([((  ligo_params[par]['Overall_errp']
                for par in grid_params])
 random_points = np.random.multivariate_normal(mean, cov, 4*n_random_points)
 random_points = [point for point in random_points 
-                 if all(val > min_val[par] and val < max_val[par] 
+                 if all(val >= min_val[par] and val <= max_val[par] 
                         for val, par in zip(point, grid_params))
                 ][:n_random_points]
-assert all(val > min_val[par] and val < max_val[par] 
+assert all(val >= min_val[par] and val <= max_val[par] 
            for point in random_points for val, par in zip(point, grid_params))
 n_random_points = len(random_points)  # Just in case a lot were outliers
 random_points = dict(zip(grid_params, np.transpose(random_points)))
